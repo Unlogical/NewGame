@@ -1,0 +1,27 @@
+http://www.deviantart.com/download/291146592/evolet___premium_wordpress_theme_by_orangeidea-d4tca5c.jpg?token=adabf75643d681aa92535741ebb49ea617eacbf7&ts=1394741930
+
+http://themes.orange-idea.com/?theme=evolet-wp
+
+Особенности:
+ Выпадающее меню
+ Карусель картинок
+ Форма регистрации
+ 
+ То есть точно такую же, но
+   изменить цвета, 
+   шрифты,
+   убрать второй логотип, тот что снизу,
+   убрать call us now, сверху, над меню,
+   добавить форму регистрации или обратной связи
+   
+   Порядок действий такой:
+- Верстка самой страницы (на месте карусели картинка)
+- Написание скрипта проверки правильности заполнения формы (Чистый JS)
+- Вставка карусели (jQuery)
+
+
+По поводу шрифтов:
+http://htmlbook.ru/css/font-face
+http://www.google.com/fonts/
+
+https://www.google.com/#q=rotating+image+slider+css
