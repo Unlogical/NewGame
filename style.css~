@@ -121,7 +121,11 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   padding: 2px;
-  width: 586px;
+
+}
+
+.loong {
+    width: 586px;
 }
 
 .top {
@@ -145,7 +149,7 @@ h2 {
   overflow: hidden;
   padding: 30px 0;
   border-top: 1px solid rgb(30,30,30);
-  border-bottom:  1px solid rgb(30,30,30);  
+  border-bottom: 1px solid rgb(30,30,30);  
 }
 
 .b-lock {
@@ -158,6 +162,56 @@ h2 {
 .second {
   background-color: palegoldenrod;
   overflow: hidden;
+}
+
+.ololo {
+  background-color: lightseagreen;
+  overflow: hidden;
+}
+
+.column2 {
+  width: 200px;
+}
+
+.discription {
+  margin-right: 18px;
+}
+
+.together, .discription {
+  float: left;
+}
+
+.together {
+  margin-left: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.pic {
+  width: 200px;
+  height: 150px;
+  border: 3px solid gray;
+  background-size: cover;
+}
+
+.pic1 {
+  background-image:url(style/targarien.jpg); 
+}
+
+.pic2 {
+  background-image:url(style/barateon.jpg); 
+}
+
+.pic3 {
+  background-image:url(style/grayjoy.jpg); 
 }
 
 

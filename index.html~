@@ -31,7 +31,7 @@
           </div>
           <div class="second">
             <div class="image move"></div>     
-            <h2>Заголовок еще</h2>
+            <h2 class="loong">Заголовок еще</h2>
             <div class="columns">
             <div class="column move">
               <div class="text top"> 
@@ -53,10 +53,36 @@
            </div>
           </div>
           <div class="hz">
-            <div class="b-lock">nen</div>
-            <div class="b-lock">nen</div>
+            <div class="b-lock move">nen</div>
+            <div class="b-lock move">nen</div>
             <div class="b-lock">nen</div>          
-          </div>     
+          </div> 
+          <div class="ololo">
+            <div class="discription">
+              <h2>Опять заголовок</h2>
+              <div class="column2 text">
+                Еще текст про что-то. Возможно хохлосрач, потому что он повсюду.
+                И я только что поняла,что тут не английский просто,поэтому я ничего не понимаю.
+              </div>
+              <div class="column2 bottom cursive">А тут опять какой-то курсив что-то сообщает загадочное.</div>  
+              <button class="button bottom">кнопка</button>
+            </div>        
+            <div class="together">
+              <div class="pic pic1"></div>
+              <a href="#" >Какая-то ссылка</a>
+              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+            </div>
+            <div class="together">
+              <div class="pic pic2"></div>
+              <a href="#" >Какая-то ссылка</a>
+              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+            </div> 
+            <div class="together">
+              <div class="pic pic3"></div>
+              <a href="#" >Какая-то ссылка</a>
+              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+            </div>        
+          </div>   
         </div> 
       </div> 
     </div>  
