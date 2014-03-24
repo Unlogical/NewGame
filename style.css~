@@ -10,24 +10,15 @@ body {
   font-size: 12px;
 }
 
-.centering {
-  padding-left: 50%;
-}
-
-.centered {
-  	
-  margin-left: -500px;
-}
-
 .all {
   width: 1000px;
   background-color:rgb(255,255,255);
-  overflow: hidden;
 }
+
+/*top*/
 
 .panel {
   display: block;
-  float: left;
   border-top: 5px solid rgb(255,255,235);
   border-bottom: 1px solid rgb(255,255,245);
   background-color: rgb(0,0,0);
@@ -38,7 +29,7 @@ body {
 
 .logo {
   display: block;
-  float: left;
+  
   margin: 0 50px;
   width: 200px;
   height: 96px;
@@ -71,6 +62,8 @@ body {
   color: rgb(0,0,0);
 } 
 
+/*first part of content: picture with header*/
+
 .content>* {
   margin: 30px 50px;
 }
@@ -80,72 +73,30 @@ body {
   margin-bottom: 30px;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 15px;
-  font-weight: normal;
-}
-
 .images {
   height: 400px;
   background-image: url(style/qroun.jpg);
   background-size: cover;
 }
 
-.column {
-  margin-top: 30px;
-  float: left;
-  height: 150px;
-  width: 280px;
-}
-
-.move {
-  margin-right: 30px;
-}
+/*second: pic and 2 columns*/
 
 .image {
-  float: left;
   background-image: url(style/stark.jpeg);
   background-size: cover;
   height: 200px;
   width: 280px;
 }
 
-h2 {
-  display: block; 	
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 2px;
-
+.column {
+  margin-top: 30px;
+  height: 150px;
+  width: 280px;
 }
 
-.loong {
-    width: 586px;
-}
-
-.top {
-  margin-top: -30px;
-}
-
-.bottom {
-  margin-top: 20px;
-}
-
-.cursive {
-  font-style: italic;
-}
-
-.bold {
-  font-weight: bold;
-}
+/*third: 3 columns*/
 
 .hz {
-  overflow: hidden;
   padding: 30px 0;
   border-top: 1px solid rgb(30,30,30);
   border-bottom: 1px solid rgb(30,30,30);  
@@ -158,13 +109,8 @@ h2 {
   height: 150px;
 } 
 
-.second {
-  overflow: hidden;
-}
+/*4th: column and 3 images*/
 
-.ololo {
-  overflow: hidden;
-}
 
 .column2 {
   width: 200px;
@@ -174,11 +120,8 @@ h2 {
   margin-right: 18px;
 }
 
-.together, .discription {
-  float: left;
-}
-
 .together {
+  float: left;
   margin-left: 20px;
   width: 206px;
 }
@@ -212,6 +155,8 @@ h2 {
   background-image:url(style/grayjoy.jpg); 
 }
 
+/*bottom*/
+
 .basement {
   display: block;
   float: left;
@@ -220,20 +165,13 @@ h2 {
   background-color: rgb(0,0,0);
   color: rgb(80,80,80);
   width: 100%;
-  overflow: hidden;
   padding: 30px 0;
 }
-
-.colored {
-  color: rgb(180,200,220);
-}
-
 
 .icon {
   background-image: url(style/icons1.png);
   width: 30px;
-  height: 30px;
-  background-size: cover;
+  height: 30px; 
   background-position: 0 0;
   float: left;
   margin-right: 10px;
@@ -241,11 +179,74 @@ h2 {
 
 
 
+/* properties */
+
+.colored {
+  color: rgb(180,200,220);
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.top {
+  margin-top: -30px;
+}
+
+.bottom {
+  margin-top: 20px;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.move {
+  margin-right: 30px;
+}
+
+.centering {
+  padding-left: 50%;
+}
+
+.centered {
+  margin-left: -500px;
+}
+
+.loong {
+  width: 586px;
+}
+
+.float-left {
+  float: left;
+}
 
 
+/*headers*/
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 
+h2 {
+  display: block; 	
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px;
 
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: normal;
+}
 
 
 

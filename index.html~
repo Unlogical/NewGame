@@ -8,9 +8,9 @@
   </head>
   <body>
     <div class="centering">
-      <div class="all centered"> 
-        <div class="panel">
-          <a href="#"><span class="logo"></span></a>
+      <div class="all hidden centered"> 
+        <div class="panel float-left">
+          <a href="#"><span class="logo float-left"></span></a>
           <ul class="menu">
             <li><a href="#">элемент</a></li>
             <li><a href="#">элемент</a></li>
@@ -29,11 +29,11 @@
             </div>
             <div class="images"></div>
           </div>
-          <div class="second">
-            <div class="image move"></div>     
+          <div class="second hidden">
+            <div class="image move float-left"></div>     
             <h2 class="loong">Заголовок еще</h2>
             <div class="columns">
-            <div class="column move">
+            <div class="column move float-left">
               <div class="text top"> 
                  А тут текст. это вторая колонка. я не знаю,связана ли она с третьей колонкой,
                  там как-то не особо понятно,и мое знание английского как-то не позволяет понять,
@@ -52,13 +52,13 @@
              </div>
            </div>
           </div>
-          <div class="hz">
+          <div class="hz hidden">
             <div class="b-lock move">nen</div>
             <div class="b-lock move">nen</div>
             <div class="b-lock">nen</div>          
           </div> 
-          <div class="ololo">
-            <div class="discription">
+          <div class="ololo hidden">
+            <div class="discription float-left">
               <h2>Опять заголовок</h2>
               <div class="column2 text">
                 Еще текст про что-то. Возможно хохлосрач, потому что он повсюду.
@@ -84,7 +84,7 @@
             </div>        
           </div>   
         </div>
-        <div class="basement">
+        <div class="basement hidden float-left">
           <a href="#"><span class="logo"></span></a>
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
@@ -97,7 +97,11 @@
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
             <div class="column2 text">А тут что-то про это рассказывается.</div> 
-              
+            <div class="icon vk"></div>
+            <div class="icon twitter"></div>
+            <div class="icon skype"></div>
+            <div class="icon mail"></div>
+            <div class="icon youtube"></div>  
           </div>
         </div> 
       </div> 
