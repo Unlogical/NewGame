@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="centering">
-      <div class="content centered"> 
+      <div class="all centered"> 
         <div class="panel">
           <a href="#"><span class="logo"></span></a>
           <ul class="menu">
@@ -21,13 +21,38 @@
             <li><a href="#">элемент</a></li>        
           </ul>
         </div>
-        <div>
-          <div class="header">
-            <h1>Какой-то заголовок</h1>
-            <h4>текст под ним какой-то,что-то поясняющий</h4>
+        <div class="content">
+          <div>
+            <div class="header">
+              <h1>Какой-то заголовок</h1>
+              <h4>текст под ним какой-то,что-то поясняющий</h4>
+            </div>
+            <div class="images"></div>
           </div>
-          <div class="images"></div>
-        </div>
+           <div>
+             <div class="image"></div>     
+             <h2>Заголовок еще</h2>
+             <div class="columns">
+             <div class="column">
+               <div class="text top"> 
+                 А тут текст. это вторая колонка. я не знаю,связана ли она с третьей колонкой,
+                 там как-то не особо понятно,и мое знание английского как-то не позволяет понять,
+                 но я буду делать так,как будто не связаны.
+               </div>
+               <div class="bottom cursive">
+                 А тут текст внизу колонки и он наклонный. Курсив то есть. Не знаю зачем,возможно он какой-то загадочный...
+               </div>
+             </div>
+             <div class="column">
+               <div class="text top">
+                 Мне кажется,что класс "text" не нужен. что-то я никак его не использую,но может понадобится,пока не буду удалять. Кто знает..
+               </div>
+               <div class="bold bottom">Почему 590=586, или немного жирного текста.</div>
+               <button>Кнопка</button>
+             </div>
+           </div>
+          </div>     
+        </div> 
       </div> 
-    </div>   
+    </div>  
   </body>
