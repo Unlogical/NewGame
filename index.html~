@@ -10,6 +10,7 @@
     <div class="centering">
       <div class="content centered"> 
         <div class="panel">
+          <a href="#"><span class="logo"></span></a>
           <ul class="menu">
             <li>элемент</li>
             <li>элемент</li>
@@ -20,5 +21,6 @@
             <li>элемент</li>        
           </ul>
         </div>
-      </div>  
+      </div> 
+    </div>   
   </body>
