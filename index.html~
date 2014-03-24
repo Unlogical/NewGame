@@ -12,14 +12,21 @@
         <div class="panel">
           <a href="#"><span class="logo"></span></a>
           <ul class="menu">
-            <li>элемент</li>
-            <li>элемент</li>
-            <li>элемент</li>
-            <li>элемент</li>
-            <li>элемент</li>
-            <li>элемент</li>
-            <li>элемент</li>        
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>
+            <li><a href="#">элемент</a></li>        
           </ul>
+        </div>
+        <div>
+          <div class="header">
+            <h1>Какой-то заголовок</h1>
+            <h4>текст под ним какой-то,что-то поясняющий</h4>
+          </div>
+          <div class="images"></div>
         </div>
       </div> 
     </div>   
