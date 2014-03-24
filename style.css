@@ -145,7 +145,6 @@ h2 {
 }
 
 .hz {
-  background-color: navajowhite;
   overflow: hidden;
   padding: 30px 0;
   border-top: 1px solid rgb(30,30,30);
@@ -160,12 +159,10 @@ h2 {
 } 
 
 .second {
-  background-color: palegoldenrod;
   overflow: hidden;
 }
 
 .ololo {
-  background-color: lightseagreen;
   overflow: hidden;
 }
 
@@ -231,6 +228,15 @@ h2 {
   color: rgb(180,200,220);
 }
 
+
+.icon {
+  background-image: url(style/icons1.png);
+  width: 30px;
+  height: 30px;
+  background-position: 0 0;
+  float: left;
+  margin-right: 10px;
+}
 
 
 

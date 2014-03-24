@@ -96,7 +96,8 @@
           </div>
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
-            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+            <div class="column2 text">А тут что-то про это рассказывается.</div> 
+              
           </div>
         </div> 
       </div> 
