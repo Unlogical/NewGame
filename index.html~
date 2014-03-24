@@ -69,20 +69,35 @@
             </div>        
             <div class="together">
               <div class="pic pic1"></div>
-              <a href="#" >Какая-то ссылка</a>
+              <a href="#" class="link">Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div>
             <div class="together">
               <div class="pic pic2"></div>
-              <a href="#" >Какая-то ссылка</a>
+              <a href="#" class="link">Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div> 
             <div class="together">
               <div class="pic pic3"></div>
-              <a href="#" >Какая-то ссылка</a>
+              <a href="#" class="link" >Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div>        
           </div>   
+        </div>
+        <div class="basement">
+          <a href="#"><span class="logo"></span></a>
+          <div class="together">
+            <h2><span class="colored">Цветной</span> заголовок</h2>
+            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+          </div>
+          <div class="together">
+            <h2><span class="colored">Цветной</span> заголовок</h2>
+            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+          </div>
+          <div class="together">
+            <h2><span class="colored">Цветной</span> заголовок</h2>
+            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+          </div>
         </div> 
       </div> 
     </div>  

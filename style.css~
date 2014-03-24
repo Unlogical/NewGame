@@ -39,7 +39,7 @@ body {
 .logo {
   display: block;
   float: left;
-  margin-left: 50px;
+  margin: 0 50px;
   width: 200px;
   height: 96px;
   background-image: url(style/logo1.jpg);
@@ -183,11 +183,12 @@ h2 {
 
 .together {
   margin-left: 20px;
+  width: 206px;
 }
 
 .link {
   text-decoration: none;
-  color: orange;
+  color: darkblue;
   font-weight: bold;
 }
 
@@ -214,7 +215,21 @@ h2 {
   background-image:url(style/grayjoy.jpg); 
 }
 
+.basement {
+  display: block;
+  float: left;
+  border-bottom: 5px solid rgb(255,255,235);
+  border-top: 1px solid rgb(255,255,245);
+  background-color: rgb(0,0,0);
+  color: rgb(80,80,80);
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+}
 
+.colored {
+  color: rgb(220,220,220);
+}
 
 
 
