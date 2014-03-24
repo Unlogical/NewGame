@@ -4,9 +4,9 @@
 }
 
 body {
-  background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat;
+  background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
   color: rgb(20,20,20);
-  font-family: tahoma;
+  font-family: 'Cuprum', sans-serif;
   font-size: 12px;
 }
 
@@ -229,12 +229,15 @@ body {
 
 h1 {
   font-size: 30px;
+  text-transform: uppercase;
 }
 
 h2 {	
   float: left;
   font-size: 20px;
   padding: 2px;
+  width: 200px;
+  text-transform: uppercase;
 }
 
 h4 {
