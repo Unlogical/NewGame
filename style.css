@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat;
+  background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
   color: rgb(20,20,20);
   font-family: tahoma;
   font-size: 12px;
