@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" /> 
     <link rel="shortcut icon" href="" />
     <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ledger&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <title>что-то</title>
   </head>
   <body>
@@ -70,17 +72,17 @@
             </div>        
             <div class="together">
               <div class="pic pic1"></div>
-              <a href="#" class="link">Какая-то ссылка</a>
+              <a href="#" class="link bold">Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div>
             <div class="together">
               <div class="pic pic2"></div>
-              <a href="#" class="link">Какая-то ссылка</a>
+              <a href="#" class="link bold">Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div> 
             <div class="together">
               <div class="pic pic3"></div>
-              <a href="#" class="link" >Какая-то ссылка</a>
+              <a href="#" class="link " >Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div>        
           </div>   

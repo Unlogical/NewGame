@@ -6,8 +6,11 @@
 body {
   background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
   color: rgb(20,20,20);
- /* font-family: 'Cuprum', sans-serif; */
-  font-family: 'Forum', cursive;
+  /*font-family: 'Cuprum', sans-serif;
+    font-family: 'Ledger', serif;
+    font-family: 'Forum', cursive;   
+   */
+  font-family: 'Ledger', serif;
   font-size: 12px;
 }
 
@@ -129,8 +132,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: darkblue;
-  font-weight: bold;
+  color: rgb(80,120,140);
 }
 
 .link:hover {
@@ -140,7 +142,7 @@ body {
 .pic {
   width: 200px;
   height: 150px;
-  border: 3px solid gray;
+  border: 3px solid rgb(180,200,220);
   background-size: cover;
 }
 
@@ -224,6 +226,19 @@ body {
 
 .float-left {
   float: left;
+}
+
+.button {
+  border-width: 0px;
+  padding: 3px;
+  text-transform: uppercase;
+  font-family: 'Cuprum', sans-serif;
+  background-color:rgb(200,220,240);
+}
+
+.button:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(100,150,175);
 }
 
 /*headers*/
