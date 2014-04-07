@@ -108,7 +108,7 @@ body {
 
 .b-lock {
   float: left;
-  background-color: orange;
+  background-color: rgb(180,200,220);
   width: 280px;
   height: 150px;
 } 
@@ -172,12 +172,16 @@ body {
 }
 
 .icon {
-  background-image: url(style/icons1.png);
-  width: 30px;
-  height: 30px; 
+  width: 24px;
+  height: 24px; 
   background-position: 0 0;
   float: left;
   margin-right: 10px;
+  margin-top: 5px;
+}
+
+.twitter {
+  background-image: url(style/twitter.png);
 }
 
 

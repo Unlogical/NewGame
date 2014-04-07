@@ -82,7 +82,7 @@
             </div> 
             <div class="together">
               <div class="pic pic3"></div>
-              <a href="#" class="link " >Какая-то ссылка</a>
+              <a href="#" class="link bold" >Какая-то ссылка</a>
               <div class="column2 text">А тут что-то про это рассказывается.</div>   
             </div>        
           </div>   
