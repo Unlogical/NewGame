@@ -56,9 +56,14 @@
            </div>
           </div>
           <div class="hz hidden">
-            <div class="b-lock move">nen</div>
-            <div class="b-lock move">nen</div>
-            <div class="b-lock">nen</div>          
+            <div class="b-lock move">
+              <span class="img img1"></span> 
+              <h3>Заголовочек</h3>
+              <div>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</div> 
+              <button class="button bottom">Кнопка</button>         
+            </div>
+            <div class="b-lock move"></div>
+            <div class="b-lock"></div>          
           </div> 
           <div class="ololo hidden">
             <div class="discription float-left">
@@ -102,7 +107,6 @@
             <div class="column2 text">А тут что-то про это рассказывается.</div> 
             <div class="icon vk"></div>
             <div class="icon twitter"></div>
-            <div class="icon skype"></div>
             <div class="icon mail"></div>
             <div class="icon youtube"></div>  
           </div>

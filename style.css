@@ -32,21 +32,10 @@ body {
   margin-bottom: 30px;
 }
 
-.logo {
-  display: block;
-  
-  margin: 0 50px;
-  width: 200px;
-  height: 96px;
-  background-image: url(style/logo1.jpg);
-  background-size: cover;
-}
-
 .menu {
   float: right;
   margin-right: 50px;
-  margin-top: 50px;
-  
+  margin-top: 50px; 
 }
 
 .menu li {
@@ -60,7 +49,7 @@ body {
 
 .menu a{
   text-decoration: none;
-  color: rgb(80,80,80);
+  color: rgb(60,80,100);
 }
 
 .menu li:hover a {
@@ -78,20 +67,7 @@ body {
   margin-bottom: 30px;
 }
 
-.images {
-  height: 400px;
-  background-image: url(style/qroun.jpg);
-  background-size: cover;
-}
-
 /*second: pic and 2 columns*/
-
-.image {
-  background-image: url(style/stark.jpeg);
-  background-size: cover;
-  height: 200px;
-  width: 280px;
-}
 
 .column {
   margin-top: 30px;
@@ -101,17 +77,12 @@ body {
 
 /*third: 3 columns*/
 
-.hz {
-  padding: 30px 0;
-  border-top: 1px solid rgb(30,30,30);
-  border-bottom: 1px solid rgb(30,30,30);  
-}
-
 .b-lock {
   float: left;
-  background-color: rgb(180,200,220);
-  width: 280px;
-  height: 150px;
+  padding: 10px;
+  background-color: rgb(235,245,255);
+  width: 260px;
+  height: 120px;
 } 
 
 /*4th: column and 3 images*/
@@ -131,34 +102,6 @@ body {
   width: 206px;
 }
 
-.link {
-  text-decoration: none;
-  color: rgb(80,120,140);
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.pic {
-  width: 200px;
-  height: 150px;
-  border: 3px solid rgb(180,200,220);
-  background-size: cover;
-}
-
-.pic1 {
-  background-image:url(style/targarien.jpg); 
-}
-
-.pic2 {
-  background-image:url(style/barateon.jpg); 
-}
-
-.pic3 {
-  background-image:url(style/grayjoy.jpg); 
-}
-
 /*bottom*/
 
 .basement {
@@ -170,6 +113,41 @@ body {
   color: rgb(80,80,80);
   width: 100%;
   padding: 30px 0;
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  color: rgb(80,120,140);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* images */
+
+.images {
+  height: 400px;
+  background-image: url(style/qroun.jpg);
+  background-size: cover;
+}
+
+.logo {
+  display: block;
+  margin: 0 50px;
+  width: 200px;
+  height: 96px;
+  background-image: url(style/logo1.jpg);
+  background-size: cover;
+}
+
+.image {
+  background-image: url(style/stark.jpeg);
+  background-size: cover;
+  height: 200px;
+  width: 280px;
 }
 
 .icon {
@@ -197,8 +175,32 @@ body {
   background-image: url(style/mail.png);
 }
 
+.pic {
+  width: 200px;
+  height: 150px;
+  border: 3px solid rgb(180,200,220);
+  background-size: cover;
+}
+
+.pic1 {
+  background-image:url(style/targarien.jpg); 
+}
+
+.pic2 {
+  background-image:url(style/barateon.jpg); 
+}
+
+.pic3 {
+  background-image:url(style/grayjoy.jpg); 
+}
 
 /* properties */
+
+.bordered {
+  padding: 30px 0;
+  border-top: 1px solid rgb(30,30,30);
+  border-bottom: 1px solid rgb(30,30,30);  
+}
 
 .colored {
   color: rgb(180,200,220);
@@ -266,10 +268,14 @@ h1 {
 
 h2 {	
   float: left;
-  font-size: 20px;
+  font-size: 14px;
   padding: 2px;
   width: 200px;
   text-transform: uppercase;
+}
+
+h3 {
+  
 }
 
 h4 {
