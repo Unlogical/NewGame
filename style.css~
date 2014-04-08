@@ -85,6 +85,10 @@ body {
   height: 120px;
 } 
 
+.b-lock:hover h3 {
+  color: rgb(140,160,180);
+}
+
 /*4th: column and 3 images*/
 
 
@@ -147,7 +151,7 @@ body {
 } 
 
 .grayjoy-img {
-  background-image: url(style/lannister2.jpg);
+  background-image: url(style/grayjoy2.jpg);
 } 
 
 .images {

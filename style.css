@@ -85,6 +85,10 @@ body {
   height: 120px;
 } 
 
+.b-lock:hover h3 {
+  color: rgb(100,150,175);
+}
+
 /*4th: column and 3 images*/
 
 
