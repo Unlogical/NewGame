@@ -14,6 +14,7 @@
       <div class="all hidden centered"> 
         <div class="panel float-left">
           <a href="#"><span class="logo float-left"></span></a>
+          <div class="enter-block"><a href="#">Зарегистрироваться </a> / <a href="#" >Войти</a></div>
           <ul class="menu">
             <li><a href="#">элемент</a></li>
             <li><a href="#">элемент</a></li>
@@ -63,7 +64,7 @@
               <button class="button bottom">Кнопка</button>         
             </div>
             <div class="b-lock move">
-              <span class="img lannister-img"></span> 
+              <span class="img grayjoy-img"></span> 
               <h3>Заголовочек</h3>
               <div>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</div> 
               <button class="button bottom">Кнопка</button>         

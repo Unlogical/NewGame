@@ -32,10 +32,16 @@ body {
   margin-bottom: 30px;
 }
 
+.enter-block {
+  float: right;
+  margin: 10px 50px 0 0;
+  color: rgb(255,255,255);
+}
+
 .menu {
   float: right;
   margin-right: 50px;
-  margin-top: 50px; 
+  margin-top: 20px; 
 }
 
 .menu li {
@@ -121,6 +127,15 @@ body {
 
 /* links */
 
+.enter-block a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+
+.enter-block a:hover {
+  color: rgb(180,200,220);
+}
+
 .link {
   text-decoration: none;
   color: rgb(80,120,140);
@@ -130,6 +145,36 @@ body {
   text-decoration: underline;
 }
 
+/*login*/
+
+.registration {
+  background-color: rgba(255,255,255,0.5);
+  width: 960px;
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.login {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 20px;
+}
+
+.login-text {
+  font-size: 20px;
+}
+
+.login-input{
+  height: 25px;
+  width: 300px;
+  float: right;
+  font-size: 16px;
+} 
+ 
 /* images */
 
 .img {
@@ -140,6 +185,7 @@ body {
   border: 0;
   border-radius: 15px;
   background-color: black;
+  margin-right: 5px;
 }
 
 .tirrel-img {
@@ -305,7 +351,7 @@ h3 {
   font-size: 20px;
   padding: 5px;
   margin-top: -5px;
-  width: 220px;
+  width: 210px;
 }
 
 h4 {
