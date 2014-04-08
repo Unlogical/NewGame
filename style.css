@@ -125,7 +125,53 @@ body {
   padding: 30px 0;
 }
 
+/*login*/
+
+.registration {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.login {
+  width: 96%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(235,245,255);
+}
+
+.login-text {
+  font-size: 20px;
+}
+
+.login-input{
+  height: 25px;
+  width: 300px;
+  float: right;
+  font-size: 16px;
+  border: 1px solid rgb(80,120,140); 
+}
+
+.login-input:focus {
+  box-shadow: 0 0 5px 2px rgb(200,220,240);
+}
+
+.goto-block {
+  float: right;
+  margin: 20px 0;
+  color: rgb(80,130,155);
+}
+
 /* links */
+
+.goto {
+  font-size: 16px;
+  color: rgb(80,130,155);
+  text-decoration: none;
+}
+
+.goto:hover {
+  color: rgb(20,20,20);
+}
 
 .enter-block a {
   color: rgb(255,255,255);
@@ -143,42 +189,6 @@ body {
 
 .link:hover {
   text-decoration: underline;
-}
-
-/*login*/
-
-.registration {
-  background-color: rgba(255,255,255,0.5);
-  width: 960px;
-  height: 300px;
-  margin-top: 100px;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.login {
-  width: 96%;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: rgba(255,255,255,0.5);
-  border-radius: 20px;
-}
-
-.login-text {
-  font-size: 20px;
-}
-
-.login-input{
-  height: 25px;
-  width: 300px;
-  float: right;
-  font-size: 16px;
-  border: 1px solid rgb(80,120,140); 
-  border-radius: 5px;
-}
-
-.login-input:focus {
-  box-shadow: 0 0 5px 5px rgb(255,255,255);
 } 
  
 /* images */
@@ -342,6 +352,7 @@ body {
 h1 {
   font-size: 30px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {	
@@ -372,3 +383,5 @@ h4 {
 
 
 
+
+ 
