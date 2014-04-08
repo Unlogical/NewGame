@@ -184,6 +184,17 @@ body {
   background-image: url(style/twitter.png);
 }
 
+.vk{
+  background-image: url(style/vkontakte.png);
+}
+
+.youtube{
+  background-image: url(style/youtube.png);
+}
+
+.mail{
+  background-image: url(style/mail.png);
+}
 
 
 /* properties */

@@ -5,6 +5,7 @@
 
 body {
   background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
+  background-size: 100%;
   color: rgb(20,20,20);
   /*font-family: 'Cuprum', sans-serif;
     font-family: 'Ledger', serif;
