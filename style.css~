@@ -128,6 +128,28 @@ body {
 
 /* images */
 
+.img {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.tirrel-img {
+  background-image: url(style/tirrel2.jpg);
+} 
+
+.barateon-img {
+  background-image: url(style/barateon2.jpg);
+} 
+
+.grayjoy-img {
+  background-image: url(style/lannister2.jpg);
+} 
+
 .images {
   height: 400px;
   background-image: url(style/qroun.jpg);
@@ -268,14 +290,18 @@ h1 {
 
 h2 {	
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px;
   width: 200px;
   text-transform: uppercase;
 }
 
 h3 {
-  
+  float: left; 
+  font-size: 20px;
+  padding: 5px;
+  margin-top: -5px;
+  width: 220px;
 }
 
 h4 {
