@@ -132,9 +132,14 @@ body {
   padding: 20px;
 }
 
+.registration .button {
+  float: right;
+  margin: 30px 170px 30px 400px;
+}
+
 .login {
-  width: 96%;
-  margin-top: 10px;
+  width: 60%;
+  margin: 10px 0 0 170px;
   padding: 10px 20px;
   background-color: rgb(235,245,255);
 }
@@ -157,7 +162,7 @@ body {
 
 .goto-block {
   float: right;
-  margin: 20px 0;
+  margin: 30px 170px 30px 0;
   color: rgb(80,130,155);
 }
 

@@ -132,9 +132,14 @@ body {
   padding: 20px;
 }
 
+.registration .button {
+  float: right;
+  margin: 30px 170px 50px 400px;
+}
+
 .login {
-  width: 96%;
-  margin-top: 10px;
+  width: 60%;
+  margin: 10px 0 0 170px;
   padding: 10px 20px;
   background-color: rgb(235,245,255);
 }
@@ -157,19 +162,20 @@ body {
 
 .goto-block {
   float: right;
-  margin: 20px 0;
+  margin: 20px 170px 50px 0;
+  color: rgb(80,130,155);
 }
 
 /* links */
 
 .goto {
-  color: rgb(20,20,20);
   font-size: 16px;
+  color: rgb(80,130,155);
   text-decoration: none;
 }
 
 .goto:hover {
-  color: rgb(80,130,155);
+  color: rgb(20,20,20);
 }
 
 .enter-block a {
