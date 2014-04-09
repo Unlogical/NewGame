@@ -148,7 +148,7 @@ body {
 }
 
 .youtube .tip {
-  right: 15px;
+  right: 17px;
 }
 
 .tip::after{
@@ -314,6 +314,11 @@ body {
 .icon:hover {
   box-shadow: inset 0 0 2px 2px rgb(0,0,0);
 }
+
+.icon:focus {
+  border: none;
+} 
+
 
 .twitter {
   background-image: url(style/twitter.png);
