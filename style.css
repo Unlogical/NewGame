@@ -62,7 +62,7 @@ body {
 .menu ul {
   padding: 0;
   position: relative;
-  top: 20px;
+  top: 15px;
   display: none;
 }
 
@@ -290,8 +290,15 @@ body {
 
 .menu li:hover>a {
   color: rgb(255,255,255);
+}
+
+.menu ul>li:hover {
+  background-color: rgb(60,60,60);
 } 
 
+ .menu ul li:first-child:hover .menu ul::after{
+  border-bottom: 5px solid rgb(60,60,60);
+}
  
 /* images */
 
