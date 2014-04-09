@@ -35,7 +35,7 @@ body {
 .enter-block {
   float: right;
   margin: 10px 50px 0 0;
-  color: rgb(255,255,255);
+  color: rgb(180,200,220);
 }
 
 .menu {
@@ -47,13 +47,13 @@ body {
 .menu li {
   display: block; 
   height: 30px;
-  background-color: white;
+  background-color: rgb(30,30,30);
   font-weight: bold;
 }
 
 .menu>li {
   float: left;
-  padding: 5px 0 0 0;
+  padding: 10px 0 0 0;
   width: 70px;
   border-right: 1px solid rgb(0,0,0);
   text-align: center;
@@ -76,11 +76,11 @@ body {
   top: -10px;
   left: 30px; 
   border: 5px solid transparent; 
-  border-bottom: 5px solid rgb(255,255,255); 
+  border-bottom: 5px solid rgb(30,30,30); 
 }
 
 .menu ul>li {
-  padding: 5px 0 0 5px;
+  padding: 10px 0 0 5px;
   border-bottom: 1px solid rgb(0,0,0);
   text-align: left;
   width: 100px;
@@ -89,15 +89,6 @@ body {
 .menu ul>li:last-child {
   border-bottom: none;
 }
-
-.menu a{
-  text-decoration: none;
-  color: rgb(60,80,100);
-}
-
-.menu li:hover a {
-  color: rgb(0,0,0);
-} 
 
 /*first part of content: picture with header*/
 
@@ -274,12 +265,12 @@ body {
 }
 
 .enter-block a {
-  color: rgb(255,255,255);
+  color: rgb(180,200,220); 
   text-decoration: none;
 }
 
 .enter-block a:hover {
-  color: rgb(180,200,220);
+  color:rgb(255,255,255);
 }
 
 .link {
@@ -290,6 +281,17 @@ body {
 .link:hover {
   text-decoration: underline;
 } 
+
+
+.menu li a{
+  text-decoration: none;
+  color: rgb(180,200,220);
+}
+
+.menu li:hover>a {
+  color: rgb(255,255,255);
+} 
+
  
 /* images */
 
