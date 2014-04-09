@@ -255,6 +255,10 @@ body {
   margin-top: 5px;
 }
 
+.icon:hover {
+  box-shadow: inset 0 0 2px 2px rgb(0,0,0);
+}
+
 .twitter {
   background-image: url(style/twitter.png);
 }

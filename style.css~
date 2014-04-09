@@ -148,7 +148,6 @@ body {
 
 .login-text {
   font-size: 16px;
-  font-family: 'Ledger', serif;
 }
 
 .login-input{
@@ -156,6 +155,7 @@ body {
   width: 300px;
   float: right;
   font-size: 16px;
+  font-family: 'Ledger', serif;
   border: 1px solid rgb(80,120,140); 
 }
 
@@ -253,6 +253,10 @@ body {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
+}
+
+.icon:hover {
+  box-shadow: inset 0 0 2px 0 rgb(255,255,255);
 }
 
 .twitter {
