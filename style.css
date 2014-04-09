@@ -34,6 +34,7 @@ body {
 
 .enter-block {
   float: right;
+  padding-left: 300px;
   margin: 10px 50px 0 0;
   color: rgb(180,200,220);
 }
@@ -54,7 +55,7 @@ body {
 .menu>li {
   float: left;
   padding: 5px 0 5px 0;
-  width: 70px;
+  width: 80px;
   border-right: 1px solid rgb(0,0,0);
   text-align: center;
 }
@@ -83,7 +84,7 @@ body {
   padding: 5px 0 5px 5px;
   border-bottom: 1px solid rgb(0,0,0);
   text-align: left;
-  width: 100px;
+  width: 120px;
 }
 
 .menu ul>li:last-child {
