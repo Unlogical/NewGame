@@ -36,7 +36,6 @@ body {
   padding-left: 300px;
   margin: 10px 50px 0 0;
   color: rgb(180,200,220);
-  font-weight: bold;
 }
 
 .menu {
@@ -145,11 +144,11 @@ body {
 
 .basement {
   display: block;
-  float: left;
   background-color: rgb(0,0,0);
   color: rgb(80,80,80);
   width: 100%;
   padding: 30px 0;
+  margin-top: -10px;
 }
 
 .tip {
@@ -266,7 +265,6 @@ body {
 .enter-block a {
   color: rgb(180,200,220); 
   text-decoration: none;
-  font-weight: bold;
 }
 
 .enter-block a:hover {

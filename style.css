@@ -144,7 +144,6 @@ body {
 
 .basement {
   display: block;
-  float: left;
   background-color: rgb(0,0,0);
   color: rgb(80,80,80);
   width: 100%;
