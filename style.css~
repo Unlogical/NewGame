@@ -148,7 +148,6 @@ body {
   color: rgb(80,80,80);
   width: 100%;
   padding: 30px 0;
-  margin-top: -10px;
 }
 
 .tip {
@@ -204,6 +203,7 @@ body {
 
 .icon:hover .tip {
   visibility: visible;
+  transition: all 1s ease-out 0s;
 }
 
 /*login*/
@@ -360,7 +360,7 @@ body {
 }
 
 .icon:focus {
-  border: none;
+  border: 0px solid black;
 } 
 
 

@@ -203,6 +203,7 @@ body {
 
 .icon:hover .tip {
   visibility: visible;
+  transition: all 1s ease;
 }
 
 /*login*/
