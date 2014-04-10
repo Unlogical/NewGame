@@ -24,8 +24,7 @@ body {
 
 .panel {
   display: block;
-  border-top: 5px solid rgb(255,255,235);
-  border-bottom: 1px solid rgb(255,255,245);
+  padding: 10px 0;
   background-color: rgb(0,0,0);
   width: 100%;
   height: 100px;
@@ -37,6 +36,7 @@ body {
   padding-left: 300px;
   margin: 10px 50px 0 0;
   color: rgb(180,200,220);
+  font-weight: bold;
 }
 
 .menu {
@@ -146,8 +146,6 @@ body {
 .basement {
   display: block;
   float: left;
-  border-bottom: 5px solid rgb(255,255,235);
-  border-top: 1px solid rgb(255,255,245);
   background-color: rgb(0,0,0);
   color: rgb(80,80,80);
   width: 100%;
@@ -268,6 +266,7 @@ body {
 .enter-block a {
   color: rgb(180,200,220); 
   text-decoration: none;
+  font-weight: bold;
 }
 
 .enter-block a:hover {
