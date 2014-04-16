@@ -12,7 +12,8 @@ function getAll() { //функция,в которой мы берем все э
 window.onload = function () { //то,что выполняется после загрузки страницы
   getAll()
 }
-
-
-
+if (nameinput==null) {
+  nameinput.borderColor = rgb(255,0,0)
+}
+else { nameinput.borderColor =  rgb(0,255,0)
 
