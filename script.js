@@ -19,11 +19,16 @@ function validatePassword() {
     alert('все в порядке')  
   }
 }
+function testAll() {
+  document.getElementById("regbutton").onclick = function () {
+    validatePassword() 
+  }
+}
 
 window.onload = function () {
   var form = document.forms["registration"]
   var emailregexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]*\.[a-z]{2,6}$/ 
   var validateEmail = validateInput(form.email,emailregexp)
   form.email.onkeyup = validateEmail
-  form.addEventListener("submit",validatePassword,false)
+  testAll()
 }    
