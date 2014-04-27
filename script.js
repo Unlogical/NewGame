@@ -10,13 +10,17 @@ function validatePassword() {
   var pass2 = document.forms["registration"].copypass.value  
   if (pass1) {
     if (pass1==pass2) {
-      alert('все в порядке')  
+      alert('все в порядке') 
+      return true 
     }
     else {
       alert('пароли не совпадают')  
+      return false
     }
+  }
   else { 
     alert('введите пароль')
+    return false
     }
 }
 
