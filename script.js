@@ -6,9 +6,11 @@ function validateInput(input, reg) {
   }
 }
 function validatePassword() {
-  var pass1 = document.forms["registration"].pass.value
-  var pass2 = document.forms["registration"].copypass.value  
-  if (!pass1 || pass1!=pass2) {
+  var pass1 = document.forms["registration"].pass
+  var pass2 = document.forms["registration"].copypass 
+  if (!pass1.value  || pass1.value !=pass2.value ) {
+  	 pass1.style.borderColor = 'red'
+  	 pass2.style.borderColor = 'red'
     return false
   } 
   return true 
@@ -20,11 +22,10 @@ window.onload = function () {
   var validateEmail = validateInput(form.email,emailregexp)
   form.email.onkeyup = validateEmail
   document.getElementById("regbutton").onclick = function () {
-    if (validatePassword) {
+    if (validatePassword()) {
       form.submit()    
     }
     else {
-      form.pass.borderColor = 'red'
       return false    
     }
   }
