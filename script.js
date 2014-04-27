@@ -7,16 +7,12 @@ function validateInput(input, reg) {
 }
 function validatePassword() {
   var pass1 = document.forms["registration"].pass
-  var pass2 = document.forms["registration"].copypass
-  var check = false
-  if (pass1==pass2) {
-    check=true  
-  }
-  if (!check) {
-    alert('пароли не совпадают')  
+  var pass2 = document.forms["registration"].copypass  
+  if (pass1.value==pass2.value) {
+    alert('все в порядке')  
   }
   else {
-    alert('все в порядке')  
+    alert('пароли не совпадают')  
   }
 }
 function testAll() {
