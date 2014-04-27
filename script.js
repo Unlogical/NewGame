@@ -8,22 +8,13 @@ function validateInput(input, reg) {
 function validatePassword() {
   var pass1 = document.forms["registration"].pass.value
   var pass2 = document.forms["registration"].copypass.value  
-  if (pass1) {
-    if (pass1==pass2) {
-      alert('все в порядке') 
-      return true 
-    }
-    else {
-      alert('пароли не совпадают')  
-      return false
-    }
-  }
-  else { 
-    alert('введите пароль')
+  if (!pass1 || pass1!=pass2) {
+  	 alert('you shall not pass!')
     return false
-    }
+  }
+  alert('все в порядке') 
+  return true 
 }
-
 
 window.onload = function () {
   var form = document.forms["registration"]
