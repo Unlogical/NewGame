@@ -1,19 +1,14 @@
-function element(a,b) { //берем текстовое поле с именем
-  b = document.getElementById(a)
-}
+ function validateInput(input, reg) { 
+        return function() {
+          var testIt = reg.test(input.value) 
+          input.style.borderColor = testIt  ? 'green' : 'red'
+          if(!testIt) {return false}
+        }
+      }
 
-var nameinput, nameid="name" //не уверена,нужно ли это: объявляем переменные
-
-function getAll() { //функция,в которой мы берем все элементы,которые нам понадобятся
-  element(nameid,nameinput)
-  
-}
-
-window.onload = function () { //то,что выполняется после загрузки страницы
-  getAll()
-}
-if (nameinput==null) {
-  nameinput.style.borderColor = rgb(255,0,0)
-}
-else { nameinput.style.borderColor =  rgb(0,255,0)
-}
+      window.onload = function () {
+        var form = document.forms["registration"]
+        var emailregexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]*\.[a-z]{2,6}$/ 
+        var validateEmail = validateInput(form.email,emailregexp)
+        form.email.onkeyup = validateEmail
+      }    
