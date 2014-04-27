@@ -9,10 +9,8 @@ function validatePassword() {
   var pass1 = document.forms["registration"].pass.value
   var pass2 = document.forms["registration"].copypass.value  
   if (!pass1 || pass1!=pass2) {
-  	 alert('you shall not pass!')
     return false
-  }
-  alert('все в порядке') 
+  } 
   return true 
 }
 
@@ -22,6 +20,12 @@ window.onload = function () {
   var validateEmail = validateInput(form.email,emailregexp)
   form.email.onkeyup = validateEmail
   document.getElementById("regbutton").onclick = function () {
-    validatePassword() 
+    if (validatePassword) {
+      form.submit()    
+    }
+    else {
+      form.pass.borderColor = 'red'
+      return false    
+    }
   }
 }    
