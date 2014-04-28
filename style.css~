@@ -246,7 +246,6 @@ body {
   border: 1px solid rgb(80,120,140);
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: cover; 
 }
 
 .required {
