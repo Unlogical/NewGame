@@ -1,4 +1,4 @@
-* {
+ * {
   padding: 0;
   margin: 0;
 }
@@ -63,11 +63,16 @@ body {
   padding: 0;
   position: relative;
   top: 15px;
-  display: none;
+  visibility: hidden;
+  display: block;
+  transition: 1s 0s ease-in;
+  opacity: 0;
 }
 
 .menu>li:hover>ul {
-  display: block;
+  visibility: visible;
+  transition: 1s 0s ease-in;
+  opacity: 1;
 }
 
 .menu li:first-child::after{
@@ -217,7 +222,7 @@ body {
   height: 30px;
   font-size: 20px;
   float: right;
-  margin: 30px 170px 30px 300px;
+  margin: 30px 170px 30px 200px;
 }
 
 .login {
@@ -240,13 +245,23 @@ body {
   border: 1px solid rgb(80,120,140); 
 }
 
+.required {
+  background-image: url(style/plus.ico);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 .login-input:focus {
   box-shadow: 0 0 5px 2px rgb(200,220,240);
 }
 
+.icon_discription {
+  margin: 20px 0  0 50px;
+}
+
 .goto-block {
   float: right;
-  margin: 30px 170px 30px 0;
+  margin: 30px 170px 30px 300px;
   color: rgb(80,130,155);
 }
 
@@ -299,6 +314,14 @@ body {
 }
  
 /* images */
+
+.plusicon {
+  background-image: url(style/plus.ico);
+  width: 16px;
+  height: 17px;
+  display: block;
+  float: left;
+}
 
 .img {
   display: block;

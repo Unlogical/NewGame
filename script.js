@@ -25,8 +25,6 @@ window.onload = function () {
     if (validatePassword()) {
       form.submit()    
     }
-    else {
-      return false    
-    }
+    return false    
   }
 }    

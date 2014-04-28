@@ -61,7 +61,7 @@
         <div class="registration">  
           <h1>Регистрация</h1>
           <form name="registration" method="post" action="">
-            <div class="login">
+            <div class="login ">
               <span class="login-text" id="name">Имя:</span>
               <input type="text" class="login-input">
             </div>
@@ -71,18 +71,19 @@
             </div>
             <div class="login">
               <span class="login-text">Логин:</span>
-              <input type="text" class="login-input">
+              <input type="text" class="login-input required" placeholder="Заполните это поле">
             </div>
             <div class="login">
               <span class="login-text">Пароль:</span> 
-              <input type="password" name="pass" class="login-input">
+              <input type="password" name="pass" class="login-input required" placeholder="Заполните это поле">
             </div> 
             <div class="login">
               <span class="login-text">Повторите пароль:</span> 
-              <input type="password" name="copypass" class="login-input">
+              <input type="password" name="copypass" class="login-input required" placeholder="Заполните это поле">
             </div>      
           </form>
           <button id="regbutton" class="button bottom">Зарегистрироваться</button>
+          <div class="icon_discription"><span class="plusicon"></span> — эти поля обязательны для заполнения. Остальные поля желательно заполнить для того,чтобы у вас была возможность восстановления пароля</div>
         <div class="goto-block"> <a href="index.html" class="goto">Главная</a> | <a href="" class="goto">Не помню пароль</a></div>
         </div>
         <div class="basement hidden float-left">
