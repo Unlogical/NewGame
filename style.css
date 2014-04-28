@@ -238,17 +238,18 @@ body {
 
 .login-input{
   height: 25px;
-  width: 300px;
+  width: 290px;
+  padding: 0 5px;
   float: right;
   font-size: 16px;
   font-family: 'Ledger', serif;
-  border: 1px solid rgb(80,120,140); 
+  border: 1px solid rgb(80,120,140);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .required {
   background-image: url(style/plus.ico);
-  background-repeat: no-repeat;
-  background-position: right center;
 }
 
 .login-input:focus {
@@ -317,7 +318,7 @@ body {
 
 .plusicon {
   background-image: url(style/plus.ico);
-  width: 16px;
+  width: 20px;
   height: 17px;
   display: block;
   float: left;
