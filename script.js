@@ -22,14 +22,8 @@ window.onload = function () {
   var pass1 = form.pass
   var pass2 = form.copypass 
   var matchPasswords = function () { 
-    var testPass = pass1.value ==pass2.value
-    if (!pass2.value) { 
-      pass2.style.backgroundImage = 'url(style/close1.ico)'
-      testPass = false
-    } 
-    else {
-      pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
-    }
+    var testPass = pass2.value && pass1.value ==pass2.value 
+    pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
     return testPass
   }
   form.copypass.onkeyup = matchPasswords
