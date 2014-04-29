@@ -39,7 +39,7 @@ window.onload = function () {
     if (formValid) {
       form.submit()   
     }
-  return formValid    
+    return formValid    
   } 
 }   
 
