@@ -26,7 +26,7 @@ window.onload = function () {
    pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
    return testPass
   }
-  form.copypass.onkeyup = 
+  form.copypass.onkeyup = matchPasswords
 document.getElementById("regbutton").onclick = function () {
   if (validateEmail() && validateLogin() && validateName() && validatePassword() && matchPasswords()) {
     form.submit()  
