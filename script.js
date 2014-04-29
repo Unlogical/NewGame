@@ -23,16 +23,24 @@ window.onload = function () {
   var pass2 = form.copypass 
   var matchPasswords = function () { 
     var testPass = pass1.value ==pass2.value
-    pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
+    if (!pass2.value) { 
+      pass2.style.backgroundImage = 'url(style/close1.ico)'
+      testPass = false
+    } 
+    else {
+      pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
+    }
     return testPass
   }
   form.copypass.onkeyup = matchPasswords
   document.getElementById("regbutton").onclick = function () {
-  	 var formValid = validateLogin() && validatePassword() && matchPasswords()
-    if (formValid) {
-      form.submit()   
+    var formValid = validateLogin() && validatePassword() && matchPasswords()
+    var validationResults =  [validateLogin(), validatePassword(), matchPasswords()]
+    if (validationResults.every) {
+      form.submit()  
+      return true 
     }
-  return formValid    
+  return false   
   } 
 }   
 
