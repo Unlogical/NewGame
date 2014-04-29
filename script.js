@@ -21,17 +21,19 @@ window.onload = function () {
   form.pass.onkeyup = validatePassword
   var pass1 = form.pass
   var pass2 = form.copypass 
-  form.copypass.onkeyup = function () { 
+  var matchPasswords = function () { 
   var testPass = pass1.value ==pass2.value
    pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
    return testPass
   }
-// document.getElementById("regbutton").onclick = function () {
-  //  if () {
-   //   form.submit()    
-  //  }
-  //  return false    
- // }
+  form.copypass.onkeyup = 
+document.getElementById("regbutton").onclick = function () {
+  if (validateEmail() && validateLogin() && validateName() && validatePassword() && matchPasswords()) {
+    form.submit()  
+    return true  
+  }
+  alert("test")
+  return false    
 }    
 
 
