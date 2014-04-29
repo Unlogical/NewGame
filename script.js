@@ -19,7 +19,7 @@ window.onload = function () {
   var form = document.forms["registration"]
   var emailregexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]*\.[a-z]{2,6}$/ 
   var loginregexp = /^[a-z0-9_-]{4,16}$/
-  var nameregexp = /^.{4,32}$/
+  var nameregexp = /^.{1,32}$/
   var passregexp = /^.{4,32}$/
   var validateEmail = validateInput(form.email,emailregexp)
   var validateLogin = validateInput(form.login,loginregexp)
@@ -31,7 +31,7 @@ window.onload = function () {
   form.pass.onkeyup = validatePassword
   form.copypass.onkeyup = validatePasswords
   document.getElementById("regbutton").onclick = function () {
-    if (validatePasswords()) {
+    if () {
       form.submit()    
     }
     return false    
@@ -46,4 +46,5 @@ window.onload = function () {
   //	 pass2.style.backgroundImage = 'red'
 //    return false
   //} 
-  //return true 
+  //return true \
+  
