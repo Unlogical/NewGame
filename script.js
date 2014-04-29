@@ -30,12 +30,12 @@ window.onload = function () {
   form.yourname.onkeyup = validateName
   form.pass.onkeyup = validatePassword
   form.copypass.onkeyup = validatePasswords
-  document.getElementById("regbutton").onclick = function () {
-    if () {
-      form.submit()    
-    }
-    return false    
-  }
+// document.getElementById("regbutton").onclick = function () {
+  //  if () {
+   //   form.submit()    
+  //  }
+  //  return false    
+ // }
 }    
 
 
