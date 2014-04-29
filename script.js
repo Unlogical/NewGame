@@ -18,8 +18,8 @@ window.onload = function () {
   form.login.onkeyup = validateLogin
   form.yourname.onkeyup = validateName
   form.pass.onkeyup = validatePassword
-  var pass1 = document.forms["registration"].pass
-  var pass2 = document.forms["registration"].copypass 
+  var pass1 = form.pass
+  var pass2 = form.copypass 
   form.copypass.onkeyup = function () { 
     if (pass1.value ==pass2.value ) {
       pass2.style.backgroundImage = 'url(style/checkmark.png)'  
