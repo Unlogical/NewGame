@@ -2,6 +2,7 @@ function validateInput(input, reg) {
   return function() {
     var testIt = reg.test(input.value) 
     input.style.backgroundImage = testIt  ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
+    return testIt
   }
 }
 window.onload = function () {
@@ -21,7 +22,9 @@ window.onload = function () {
   var pass1 = form.pass
   var pass2 = form.copypass 
   form.copypass.onkeyup = function () { 
-   pass2.style.backgroundImage = (pass1.value ==pass2.value ) ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
+  var testPass = pass1.value ==pass2.value
+   pass2.style.backgroundImage = testPass ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
+   return testPass
   }
 // document.getElementById("regbutton").onclick = function () {
   //  if () {
@@ -32,12 +35,3 @@ window.onload = function () {
 }    
 
 
-
-
-//if (!pass1.value  || pass1.value !=pass2.value ) {
- // 	 pass1.style.borderColor = 'red'
-  //	 pass2.style.backgroundImage = 'red'
-//    return false
-  //} 
-  //return true \
-  
