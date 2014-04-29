@@ -30,10 +30,9 @@ window.onload = function () {
   document.getElementById("regbutton").onclick = function () {
   	 var formValid = validateLogin() && validatePassword() && matchPasswords()
     if (formValid) {
-      form.submit()  
-      return true  
+      form.submit()   
     }
-  return false    
+  return formValid    
   } 
 }   
 
