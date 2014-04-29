@@ -21,12 +21,7 @@ window.onload = function () {
   var pass1 = form.pass
   var pass2 = form.copypass 
   form.copypass.onkeyup = function () { 
-    if (pass1.value ==pass2.value ) {
-      pass2.style.backgroundImage = 'url(style/checkmark.png)'  
-    }
-    else {
-      pass2.style.backgroundImage = 'url(style/close1.ico)'  
-    }
+   pass2.style.backgroundImage = (pass1.value ==pass2.value ) ? 'url(style/checkmark.png)' : pass2.style.backgroundImage = 'url(style/close1.ico)'
   }
 // document.getElementById("regbutton").onclick = function () {
   //  if () {
