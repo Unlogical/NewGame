@@ -34,14 +34,13 @@ window.onload = function () {
   }
   form.copypass.onkeyup = matchPasswords
   document.getElementById("regbutton").onclick = function () {
-    var formValid = validateLogin() && validatePassword() && matchPasswords()
     var validationResults =  [validateLogin(), validatePassword(), matchPasswords()]
-    if (validationResults.every) {
-      form.submit()  
-      return true 
+    var formValid = validationResults.every(function(x){return x})
+    if (formValid) {
+      form.submit()   
     }
-  return false   
+  return formValid    
   } 
 }   
 
-
+  
