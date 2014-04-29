@@ -4,17 +4,6 @@ function validateInput(input, reg) {
     input.style.backgroundImage = testIt  ? 'url(style/checkmark.png)' : 'url(style/close1.ico)'
   }
 }
-function validatePasswords() {
-  var pass1 = document.forms["registration"].pass
-  var pass2 = document.forms["registration"].copypass 
-  if (pass1.value ==pass2.value ) {
-    pass2.style.backgroundImage = 'url(style/checkmark.png)'  
-  }
-  else {
-    pass2.style.backgroundImage = 'url(style/close1.ico)'  
-  }
-}
-
 window.onload = function () {
   var form = document.forms["registration"]
   var emailregexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]*\.[a-z]{2,6}$/ 
@@ -29,7 +18,16 @@ window.onload = function () {
   form.login.onkeyup = validateLogin
   form.yourname.onkeyup = validateName
   form.pass.onkeyup = validatePassword
-  form.copypass.onkeyup = validatePasswords
+  var pass1 = document.forms["registration"].pass
+  var pass2 = document.forms["registration"].copypass 
+  form.copypass.onkeyup = function () { 
+    if (pass1.value ==pass2.value ) {
+      pass2.style.backgroundImage = 'url(style/checkmark.png)'  
+    }
+    else {
+      pass2.style.backgroundImage = 'url(style/close1.ico)'  
+    }
+  }
 // document.getElementById("regbutton").onclick = function () {
   //  if () {
    //   form.submit()    
