@@ -14,10 +14,10 @@
     <div class="centering">
       <div class="all hidden centered"> 
        <form class="regform" id="enterForm">
-         <button class="closebutton" id="hide"><img src="close.png" height="20px" alt=""></button>
-         <input type="text" placeholder="login">
-         <input type="passmord" placeholder="password"> 
-         <button class="enterbutton">Enter</button>   
+         <button class="closebutton" id="hide"><img src="style/close.png" height="20px" alt=""></button>
+         <div class="enterinput"><input type="text" placeholder="login"></div>
+         <div class="enterinput"><input type="passmord" placeholder="password"></div>
+         <button class="button enterbutton">Вход</button>   
        </form> 
         <div class="panel float-left">
           <a href="#"><span class="logo float-left"></span></a>

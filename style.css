@@ -270,34 +270,50 @@ body {
 
 .regform {
   padding:0 5px; 
-  border: 1px solid rgb(122,155,155); 
-  background-color: rgb(222,255,255); 
-  width:300px; 
+  border: 1px solid rgb(235,245,255); 
+  background-color: rgb(255,255,255); 
+  width:360px; 
   position: fixed;
   right: 50%;
   top: 50%;
   margin-top: -100px;
   margin-right: -140px; 
+  box-shadow: 0 0 5px 2px rgb(200,220,240);
   visibility: hidden;
   opacity: 0;
   z-index: 2;   
-}   
-input {
+}  
+ 
+.input {
   display:block; 
-  width:270px; 
-  height:30px; 
+  height: 25px;
+  width: 260px;
+  padding: 0 5px;
+  float: right;
+  font-size: 16px;
+  font-family: 'Ledger', serif;
+  border: 1px solid rgb(80,120,140); 
   margin:5px
 }
+
+.enterinput {
+  float: left;
+  margin: 0 0 5px 25px;
+  padding: 5px 15px;
+  background-color: rgb(235,245,255);
+}
+
 .closebutton {
   border:0px; 
-  margin:5px 10px 10px 200px; 
+  margin:5px 5px 10px 200px; 
   height:20px; 
-  background-color:rgb(222,255,255); 
+  background-color:rgb(255,255,255); 
   width:20px; 
   float:right      
 }
 .enterbutton {
-  margin:5px 0 5px 10px;      
+  font-size: 15px;
+  margin:5px 10px 5px 294px;      
 }
 
 /* links */
