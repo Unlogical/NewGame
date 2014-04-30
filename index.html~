@@ -13,12 +13,17 @@
   <body>
     <div class="centering">
       <div class="all hidden centered"> 
-       <form class="regform" id="enterForm">
-         <button class="closebutton" id="hide"><img src="style/close.png" height="20px" alt=""></button>
-         <div class="enterinput"><input type="text" placeholder="login"></div>
-         <div class="enterinput"><input type="passmord" placeholder="password"></div>
-         <button class="button enterbutton">Вход</button>   
-       </form> 
+      <div class="form" id="form">
+        <div class="topform">
+          <h5>Авторизация</h5>
+          <button class="closebutton" id="hide"><img src="style/close.png" height="20px" alt=""></button>
+        </div>
+	      <form class="regform" id="enterForm">   
+	        <div class="enterinput"><input class="input" type="text" placeholder="Логин"></div>
+	        <div class="enterinput"><input class="input" type="passmord" placeholder="Пароль"></div>  
+	      </form>
+	      <button class="button enterbutton">Вход</button> 
+       </div>
         <div class="panel float-left">
           <a href="#"><span class="logo float-left"></span></a>
           <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" id="enter">Войти</a></div>
