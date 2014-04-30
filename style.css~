@@ -313,7 +313,7 @@ body {
 }
 .enterbutton {
   font-size: 15px;
-  margin:5px 10px 5px 290px;      
+  margin:5px 10px 5px 294px;      
 }
 
 /* links */

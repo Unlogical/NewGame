@@ -1,14 +1,12 @@
 function reglinkOnclick() {
   var formStyle = document.getElementById("enterForm").style  
   formStyle.visibility = "visible" 
-  formStyle.trancition = "1s 0s"
   formStyle.opacity = "1"
   return false
 }  
 function hideOnclick() {
   var formStyle = document.getElementById("enterForm").style  
   formStyle.visibility = "hidden" 
-  formStyle.trancition = "1s 0s"
   formStyle.opacity = "0"
   return false
 }                                            
