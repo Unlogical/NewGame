@@ -254,7 +254,7 @@ body {
   background-image: url(style/plus.ico);
 }
 
-.login-input:focus {
+.login-input:focus, .input:focus {
   box-shadow: 0 0 5px 2px rgb(200,220,240);
 }
 

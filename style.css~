@@ -594,6 +594,7 @@ h5 {
   font-size: 30px;
   color: rgb(200,220,240);
   float: left;
+  font-weight: normal;
 }
 
 
