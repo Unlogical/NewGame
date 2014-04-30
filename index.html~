@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script> 
+    <script src="login.js"></script> 
     <link rel="shortcut icon" href="style/qroun.gif" />
     <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -13,9 +13,15 @@
   <body>
     <div class="centering">
       <div class="all hidden centered"> 
+       <form class="regform" id="enterForm">
+         <button class="closebutton" id="hide"><img src="close.png" height="20px" alt=""></button>
+         <input type="text" placeholder="login">
+         <input type="passmord" placeholder="password"> 
+         <button class="enterbutton">Enter</button>   
+       </form> 
         <div class="panel float-left">
           <a href="#"><span class="logo float-left"></span></a>
-          <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" >Войти</a></div>
+          <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" id="enter">Войти</a></div>
           <ul class="menu">
             <li><a href="#">элемент</a></li>
             <li><a href="#">элемент</a>
@@ -97,40 +103,40 @@
             <div class="b-lock move">
               <span class="img grayjoy-img"></span> 
               <h3>Заголовочек</h3>
-              <div>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</div> 
+              <p>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</p> 
               <button class="button bottom">Кнопка</button>         
             </div>
             <div class="b-lock">
               <span class="img barateon-img"></span> 
               <h3>Заголовочек</h3>
-              <div>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</div> 
+              <p>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</p> 
               <button class="button bottom">Кнопка</button>         
             </div>          
           </div> 
           <div class="ololo hidden">
             <div class="discription float-left">
               <h2 class="long">Заголовок</h2>
-              <div class="column2 text">
+              <p class="column2 text">
                 Еще текст про что-то. Возможно хохлосрач, потому что он повсюду.
                 И я только что поняла,что тут не английский просто,поэтому я ничего не понимаю.
-              </div>
-              <div class="column2 bottom cursive">А тут опять какой-то курсив что-то сообщает загадочное.</div>  
+              </p>
+              <p class="column2 bottom cursive">А тут опять какой-то курсив что-то сообщает загадочное.</p>  
               <button class="button bottom">кнопка</button>
             </div>        
             <div class="together">
               <div class="pic pic1"></div>
               <a href="#" class="link bold">Какая-то ссылка</a>
-              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+              <p class="column2 text">А тут что-то про это рассказывается.</p>   
             </div>
             <div class="together">
               <div class="pic pic2"></div>
               <a href="#" class="link bold">Какая-то ссылка</a>
-              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+              <p class="column2 text">А тут что-то про это рассказывается.</p>   
             </div> 
             <div class="together">
               <div class="pic pic3"></div>
               <a href="#" class="link bold" >Какая-то ссылка</a>
-              <div class="column2 text">А тут что-то про это рассказывается.</div>   
+              <p class="column2 text">А тут что-то про это рассказывается.</p>   
             </div>        
           </div>   
         </div>
@@ -138,15 +144,15 @@
           <a href="#"><span class="logo float-left"></span></a>
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
-            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+            <p class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</p>   
           </div>
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
-            <div class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</div>   
+            <p class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</p>   
           </div>
           <div class="together">
             <h2><span class="colored">Цветной</span> заголовок</h2>
-            <div class="column2 text">А тут что-то про это рассказывается.</div> 
+            <p class="column2 text">А тут что-то про это рассказывается.</p> 
             <a href="#" class="icon vk"><span class="tip">В&nbsp;контакте</span></a>
             <a href="#" class="icon twitter"><span class="tip">Twitter</span></a>
             <a href="#" class="icon mail"><span class="tip">Mail</span></a>

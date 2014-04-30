@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script> 
+    <script src="login.js"></script> 
     <link rel="shortcut icon" href="style/qroun.gif" />
     <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -13,9 +13,15 @@
   <body>
     <div class="centering">
       <div class="all hidden centered"> 
+       <form class="regform" id="enterForm">
+         <button class="closebutton" id="hide"><img src="style/close.png" height="20px" alt=""></button>
+         <input type="text" placeholder="login">
+         <input type="passmord" placeholder="password"> 
+         <button class="enterbutton">Enter</button>   
+       </form> 
         <div class="panel float-left">
           <a href="#"><span class="logo float-left"></span></a>
-          <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" >Войти</a></div>
+          <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" id="enter">Войти</a></div>
           <ul class="menu">
             <li><a href="#">элемент</a></li>
             <li><a href="#">элемент</a>
