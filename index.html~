@@ -5,8 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="login.js"></script> 
     <link rel="shortcut icon" href="style/qroun.gif" />
-    <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ledger&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <title>Игра престолов</title>
   </head>
@@ -28,94 +27,90 @@
           <a href="#"><span class="logo float-left"></span></a>
           <div class="enter-block"><a href="registration.html">Зарегистрироваться </a> | <a href="#" id="enter">Войти</a></div>
           <ul class="menu">
-            <li><a href="#">элемент</a></li>
-            <li><a href="#">элемент</a>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Сериал</a>
               <ul>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>              
+                <li><a href="#">1 сезон</a></li>
+                <li><a href="#">2 сезон</a></li>
+                <li><a href="#">3 сезон</a></li>
+                <li><a href="#">4 сезон</a></li>              
               </ul>            
             </li>
-            <li><a href="#">элемент</a>
+            <li><a href="#">Галерея</a>
               <ul>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li> 
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>             
+                <li><a href="#">Актеры</a></li>
+                <li><a href="#">Промо</a></li>
+                <li><a href="#">Съемки сериала</a></li>
+                <li><a href="#">Постеры</a></li> 
+                <li><a href="#">Обои</a></li>
+                <li><a href="#">Фан-арт</a></li>
+                <li><a href="#">Косплей</a></li>             
               </ul>             
             </li>
-            <li><a href="#">элемент</a>
+            <li><a href="#">Дж. Мартин</a>
               <ul>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>           
+                <li><a href="#">Книги</a></li>
+                <li><a href="#">О писателе</a></li>
+                <li><a href="#">Интервью</a></li>           
               </ul>            
             </li>
-            <li><a href="#">элемент</a>
+            <li><a href="#">Ещё</a>
               <ul>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li> 
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>
-                <li><a href="#">элемент</a></li>             
+                <li><a href="#">Трейлеры</a></li>
+                <li><a href="#">Съемки</a></li>
+                <li><a href="#">Фан-видео</a></li>
+                <li><a href="#">Новости</a></li>             
               </ul>            
             </li>
-            <li><a href="#">элемент</a></li>      
+            <li><a href="#">Расписание</a></li>      
           </ul>
         </div>
         <div class="content">
           <div class="header">
-            <h1>Какой-то заголовок</h1>
-            <h4>текст под ним какой-то,что-то поясняющий</h4>
+            <h1>Игра престолов</h1>
+            <h4>о домах Вестероса</h4>
           </div>
           <div class="images"></div>
           <div class="hidden">
             <div class="image move float-left"></div>     
-            <h2 class="loong">Заголовок еще</h2>
+            <h2 class="loong">Дом Старков</h2>
             <div class="columns">
             <div class="column move float-left">
               <p class="text top"> 
-                 А тут текст. это вторая колонка. я не знаю,связана ли она с третьей колонкой,
-                 там как-то не особо понятно,и мое знание английского как-то не позволяет понять,
-                 но я буду делать так,как будто не связаны.
+                 Происхождение Старков восходит к Брандону-строителю и древним Королям Зимы. Тысячи лет они правили в Винтерфелле, 
+                 называя себя Королями Севера,пока Торрхен Старк, Король Преклонивший колено, не присягнул на верность Эйегону Драконовластному.
                </p>
                <p class="bottom cursive">
-                 А тут текст внизу колонки и он наклонный. Курсив то есть. Не знаю зачем,возможно он какой-то загадочный...
+                 Их герб - серый лютоволк, мчащийся на снежно-белом фоне
                </p>
              </div>
              <div class="column float-left">
                <p class="text top">
-                 Мне кажется,что класс "text" не нужен. что-то я никак его не использую,но может понадобится,пока не буду удалять. Кто знает..
+                 На верность Винтерфеллу присягнули Карстарки, Амберы, Флинты, Мормонты, Хорнвуды, Сервины, Риды, Мандерли, Гловеры, Толхарты, Болтоны. 
                </p>
-               <p class="bold bottom">Почему 590=586, или немного жирного текста.</p>
-               <button class="button bottom">Кнопка</button>
+               <p class="bold bottom">Девиз Старков — "Зима близко". </p>
+               <button class="button bottom">Ещё</button>
              </div>
            </div>
           </div>
           <div class="bordered hidden">
             <div class="b-lock move">
               <span class="img tirrel-img"></span> 
-              <h3>Заголовочек</h3>
-              <p>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</p> 
-              <button class="button bottom">Кнопка</button>         
+              <h3>Дом Тиррелов</h3>
+              <p>Золотая роза на зеленом,как трава, поле. "Вырастая — крепнем".</p> 
+              <button class="button bottom">Подробнее</button>         
             </div>
             <div class="b-lock move">
               <span class="img grayjoy-img"></span> 
-              <h3>Заголовочек</h3>
-              <p>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</p> 
-              <button class="button bottom">Кнопка</button>         
+              <h3>Род Грейджоев</h3>
+              <p>Золотой кракен на черном поле. "Мы не сеем".</p> 
+              <button class="button bottom">Подробнее</button>         
             </div>
             <div class="b-lock">
-              <span class="img barateon-img"></span> 
-              <h3>Заголовочек</h3>
-              <p>А вот тут вот текст какой-то. не очень много.А под ним кнопка.</p> 
-              <button class="button bottom">Кнопка</button>         
+              <span class="img martell-img"></span> 
+              <h3>Дом Мартеллов</h3>
+                <p>"Не поклонившийся,не согнувшийся,не сломленный".</p> 
+              <button class="button bottom">Подробнее</button>         
             </div>          
           </div> 
           <div class="ololo hidden">
@@ -130,18 +125,18 @@
             </div>        
             <div class="together">
               <div class="pic pic1"></div>
-              <a href="#" class="link bold">Какая-то ссылка</a>
-              <p class="column2 text">А тут что-то про это рассказывается.</p>   
+              <a href="#" class="link bold">Таргариены</a>
+              <p class="column2 text">"Пламя и кровь"</p>   
             </div>
             <div class="together">
               <div class="pic pic2"></div>
-              <a href="#" class="link bold">Какая-то ссылка</a>
-              <p class="column2 text">А тут что-то про это рассказывается.</p>   
+              <a href="#" class="link bold">Баратеоны</a>
+              <p class="column2 text">"Нам — ярость".</p>   
             </div> 
             <div class="together">
               <div class="pic pic3"></div>
-              <a href="#" class="link bold" >Какая-то ссылка</a>
-              <p class="column2 text">А тут что-то про это рассказывается.</p>   
+              <a href="#" class="link bold" >Ланнистеры</a>
+              <p class="column2 text">"Услышь мой рёв!"</p>   
             </div>        
           </div>   
         </div>
