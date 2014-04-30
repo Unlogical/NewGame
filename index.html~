@@ -115,13 +115,12 @@
           </div> 
           <div class="ololo hidden">
             <div class="discription float-left">
-              <h2 class="long">Заголовок</h2>
+              <h2 class="long">Железный трон</h2>
               <p class="column2 text">
-                Еще текст про что-то. Возможно хохлосрач, потому что он повсюду.
-                И я только что поняла,что тут не английский просто,поэтому я ничего не понимаю.
+                Основные претенденты на Железный трон  — это Таргариены, Ланнистеры и Баратеоны.
               </p>
-              <p class="column2 bottom cursive">А тут опять какой-то курсив что-то сообщает загадочное.</p>  
-              <button class="button bottom">кнопка</button>
+              <p class="column2 bottom cursive">Ещё свои права на Север выдвигали Старки</p>  
+              <button class="button bottom">Подробнее</button>
             </div>        
             <div class="together">
               <div class="pic pic1"></div>
