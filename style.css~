@@ -281,6 +281,7 @@ body {
   box-shadow: 0 0 5px 2px rgb(200,220,240);
   visibility: hidden;
   opacity: 0;
+  transition: 1s 0s;
   z-index: 2;   
 }  
  

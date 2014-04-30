@@ -161,6 +161,8 @@ body {
   position: relative;
   top: 35px;
   visibility: hidden;
+  opacity: 0;
+  transition: 1s 0s;
   padding: 5px;
   border-radius: 5px;
 }
@@ -208,7 +210,7 @@ body {
 
 .icon:hover .tip {
   visibility: visible;
-  transition: all 1s ease;
+  opacity: 1;
 }
 
 /*login*/
