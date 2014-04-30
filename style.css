@@ -7,11 +7,7 @@ body {
   background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
   background-size: 100%;
   color: rgb(20,20,20);
-  /*font-family: 'Cuprum', sans-serif;
-    font-family: 'Ledger', serif;
-    font-family: 'Forum', cursive;   
-   */
-  font-family: 'Ledger', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
 }
 
@@ -564,12 +560,14 @@ body {
 /*headers*/
 
 h1 {
+  font-family: 'Ledger', serif;
   font-size: 30px;
   text-transform: uppercase;
   text-align: center;
 }
 
 h2 {	
+  font-family: 'Ledger', serif;
   float: left;
   font-size: 14px;
   padding: 2px;
@@ -578,6 +576,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Ledger', serif;
   float: left; 
   font-size: 20px;
   padding: 5px;
@@ -586,11 +585,13 @@ h3 {
 }
 
 h4 {
+  font-family: 'Ledger', serif;
   font-size: 15px;
   font-weight: normal;
 }
 
 h5 {
+  font-family: 'Ledger', serif;
   font-size: 30px;
   color: rgb(200,220,240);
   float: left;
