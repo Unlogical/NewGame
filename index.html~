@@ -16,7 +16,7 @@
       <div class="form" id="form">
         <div class="topform">
           <h5>Авторизация</h5>
-          <button class="closebutton" id="hide"><img src="style/close.png" height="20px" alt=""></button>
+          <button class="closebutton" id="hide"><!--<img src="style/close.png" height="20px" alt="">--></button>
         </div>
 	      <form class="regform" id="enterForm">   
 	        <div class="enterinput"><input class="input" type="text" placeholder="Логин"></div>
