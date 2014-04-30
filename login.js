@@ -14,4 +14,4 @@ function init() {
   document.getElementById("enter").onclick = reglinkOnclick
   document.getElementById("hide").onclick = hideOnclick
 }
-window.onload = init
+window.addEventListener('load',init,false)

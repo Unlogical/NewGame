@@ -5,7 +5,8 @@ function validateInput(input, reg) {
     return testIt
   }
 }
-window.onload = function () {
+
+function validation() {
   var form = document.forms["registration"]
   var emailregexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]*\.[a-z]{2,6}$/ 
   var loginregexp = /^[a-z0-9_-]{4,16}$/
@@ -35,6 +36,7 @@ window.onload = function () {
     }
     return formValid    
   } 
-}   
+}  
+window.addEventListener('load',validation,false) 
 
   
