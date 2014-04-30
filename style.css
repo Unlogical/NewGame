@@ -247,7 +247,7 @@ body {
 }
 
 .required {
-  background-image: url(style/plus.ico);
+  background-image: url(style/plus.png);
 }
 
 .login-input:focus, .input:focus {
@@ -383,7 +383,7 @@ body {
 /* images */
 
 .plusicon {
-  background-image: url(style/plus.ico);
+  background-image: url(style/plus.png);
   width: 16px;
   height: 17px;
   display: block;
