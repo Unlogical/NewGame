@@ -415,6 +415,7 @@ body {
 
 .images {
   height: 400px;
+  width: 900px;
   background-image: url(style/qroun.jpg);
   background-size: cover;
 }
@@ -475,6 +476,7 @@ body {
   height: 150px;
   border: 3px solid rgb(180,200,220);
   background-size: cover;
+  background-position: center center;
 }
 
 .pic1 {

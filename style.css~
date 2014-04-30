@@ -8,7 +8,7 @@ body {
   background-size: 100%;
   color: rgb(20,20,20);
   font-family: 'Open Sans', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .all {
@@ -415,6 +415,7 @@ body {
 
 .images {
   height: 400px;
+  width: 750px;
   background-image: url(style/qroun.jpg);
   background-size: cover;
 }
@@ -475,6 +476,7 @@ body {
   height: 150px;
   border: 3px solid rgb(180,200,220);
   background-size: cover;
+  background-position: center center;
 }
 
 .pic1 {
