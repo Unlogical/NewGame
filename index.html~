@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="login.js"></script> 
+    <script type="text/javascript" src="/path/to/jquery.js"></script>
+    <script type="text/javascript" src="/path/to/jquery.jcarousel.js"></script>
     <link rel="shortcut icon" href="style/qroun.gif" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ledger&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -140,18 +142,18 @@
           </div>   
         </div>
         <div class="basement hidden float-left">
-          <a href="#"><span class="logo float-left"></span></a>
+          <a href="index.html"><span class="logo float-left"></span></a>
           <div class="together">
-            <h2><span class="colored">Цветной</span> заголовок</h2>
-            <p class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</p>   
+            <h2><span class="colored">Источники</span> информации</h2>
+            <p class="column2 text">Текст взят из приложения к первому тому цикла "Песнь льда и пламени" "Игра престолов"</p>   
           </div>
           <div class="together">
-            <h2><span class="colored">Цветной</span> заголовок</h2>
-            <p class="column2 text">А тут что-то про это рассказывается. И текст еще какой-то блаблабла блабла бла блабла бла!</p>   
+            <h2><span class="colored">Авторские</span> права</h2>
+            <p class="column2 text">Изображения с этой страницы не являются нашей собственностью. Вы можете их копировать по своему желанию.</p>   
           </div>
           <div class="together">
-            <h2><span class="colored">Цветной</span> заголовок</h2>
-            <p class="column2 text">А тут что-то про это рассказывается.</p> 
+            <h2><span class="colored">Обратная</span> связь</h2>
+            <p class="column2 text">Написать нам можно сюда: </p> 
             <a href="#" class="icon vk"><span class="tip">В&nbsp;контакте</span></a>
             <a href="#" class="icon twitter"><span class="tip">Twitter</span></a>
             <a href="#" class="icon mail"><span class="tip">Mail</span></a>
