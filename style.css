@@ -120,6 +120,10 @@ body {
   height: 120px;
 } 
 
+.blue-block p {
+  height: 90px;
+}
+
 .blue-block:hover h3 {
   color: rgb(100,150,175);
 }
@@ -515,10 +519,7 @@ body {
   margin-top: 20px;
 }
 
-.blue-block-button{
-  position: absolute;
-  bottom: -440px;
-}
+
 
 .cursive {
   font-style: italic;
