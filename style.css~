@@ -517,7 +517,7 @@ body {
 
 .blue-block-button{
   position: absolute;
-  bottom: -450px;
+  bottom: -440px;
 }
 
 .cursive {
