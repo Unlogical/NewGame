@@ -417,13 +417,6 @@ body {
   background-image: url(style/grayjoy2.jpg);
 } 
 
-.images {
-  height: 400px;
-  width: 900px;
-  background-image: url(style/qroun.jpg);
-  background-size: cover;
-}
-
 .logo {
   display: block;
   margin: 0 50px;

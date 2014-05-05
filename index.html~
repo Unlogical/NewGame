@@ -3,9 +3,11 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="login.js"></script> 
-    <script type="text/javascript" src="/path/to/jquery.js"></script>
-    <script type="text/javascript" src="/path/to/jquery.jcarousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="carouselstyle.css" />
+    <script type="text/javascript" src="login.js"></script> 
+    <script type="text/javascript" src="lib/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="lib/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
     <link rel="shortcut icon" href="style/qroun.gif" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ledger&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -72,7 +74,28 @@
             <h1>Игра престолов</h1>
             <h4>о домах Вестероса</h4>
           </div>
-          <div class="images"></div>
+          <div class="jcarousel-wrapper">
+            <div class="jcarousel" >
+              <ul>
+                <li><img src="style/1.jpg" width="900" height="500" alt=""></li>
+                <li><img src="style/2.jpg" width="900" height="500" alt=""></li>
+                <li><img src="style/3.jpg" width="900" height="500" alt=""></li>
+                <li><img src="style/4.jpg" width="900" height="500" alt=""></li>
+                <li><img src="style/5.jpg" width="900" height="500" alt=""></li>
+                <li><img src="style/6.jpg" width="900" height="500" alt=""></li>
+              </ul>
+            </div>
+            <a class="jcarousel-control-prev inactive" href="#" > ‹ </a>
+            <a class="jcarousel-control-next" href="#" > › </a>
+            <p class="jcarousel-pagination" >
+              <a class="active" href="#1">1</a>
+              <a href="#2">2</a>
+              <a href="#3">3</a>
+              <a href="#4">4</a>
+              <a href="#5">5</a>
+              <a href="#6">6</a>
+            </p>
+          </div>
           <div class="overflow-hidden">
             <div class="image move float-left"></div>     
             <h2 class="loong">Дом Старков</h2>
@@ -129,13 +152,11 @@
               <p class="column2 text">"Пламя и кровь"</p>   
             </div>
             <div class="together">
-              <div class="pic pic2"></div>
-              <a href="#" class="link bold">Баратеоны</a>
+              <a href="#" class="link bold"><div class="pic pic2"></div>Баратеоны</a>
               <p class="column2 text">"Нам — ярость".</p>   
             </div> 
             <div class="together">
-              <div class="pic pic3"></div>
-              <a href="#" class="link bold" >Ланнистеры</a>
+              <a href="#" class="link bold" ><div class="pic pic3"></div>Ланнистеры</a>
               <p class="column2 text">"Услышь мой рёв!"</p>   
             </div>        
           </div>   

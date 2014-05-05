@@ -519,10 +519,7 @@ body {
   margin-top: 20px;
 }
 
-.blue-block-button{
-  position: absolute;
-  bottom: -440px;
-}
+
 
 .cursive {
   font-style: italic;
