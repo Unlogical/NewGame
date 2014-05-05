@@ -112,7 +112,7 @@ body {
 
 /*third: 3 columns*/
 
-.b-lock {
+.blue-block {
   float: left;
   padding: 10px;
   background-color: rgb(235,245,255);
@@ -503,7 +503,7 @@ body {
   color: rgb(180,200,220);
 }
 
-.hidden {
+.overflow-hidden {
   overflow: hidden;
 }
 
@@ -513,6 +513,11 @@ body {
 
 .bottom {
   margin-top: 20px;
+}
+
+.blue-block-button{
+  position: absolute;
+  bottom: -440px;
 }
 
 .cursive {

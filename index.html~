@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="centering">
-      <div class="all hidden centered"> 
+      <div class="all overflow-hidden centered"> 
       <div class="form" id="form">
         <div class="topform">
           <div class="formheader"><h5>Авторизация</h5></div>
@@ -73,7 +73,7 @@
             <h4>о домах Вестероса</h4>
           </div>
           <div class="images"></div>
-          <div class="hidden">
+          <div class="overflow-hidden">
             <div class="image move float-left"></div>     
             <h2 class="loong">Дом Старков</h2>
             <div class="columns">
@@ -95,27 +95,27 @@
              </div>
            </div>
           </div>
-          <div class="bordered hidden">
-            <div class="b-lock move">
+          <div class="bordered overflow-hidden">
+            <div class="blue-block move">
               <span class="img tirrel-img"></span> 
               <h3>Дом Тиррелов</h3>
               <p>Золотая роза на зеленом,как трава, поле. "Вырастая — крепнем".</p> 
-              <button class="button bottom">Подробнее</button>         
+              <button class="button blue-block-button">Подробнее</button>         
             </div>
-            <div class="b-lock move">
+            <div class="blue-block move">
               <span class="img grayjoy-img"></span> 
               <h3>Род Грейджоев</h3>
               <p>Золотой кракен на черном поле. "Мы не сеем".</p> 
-              <button class="button bottom">Подробнее</button>         
+              <button class="button blue-block-button">Подробнее</button>         
             </div>
-            <div class="b-lock">
+            <div class="blue-block">
               <span class="img martell-img"></span> 
               <h3>Дом Мартеллов</h3>
-                <p>"Не поклонившийся,не согнувшийся,не сломленный".</p> 
-              <button class="button bottom">Подробнее</button>         
+                <p>Красное солнце, пронзенное золотым копьем. "Не поклонившийся, не согнувшийся, не сломленный".</p> 
+              <button class="button blue-block-button">Подробнее</button>         
             </div>          
           </div> 
-          <div class="ololo hidden">
+          <div class="overflow-hidden">
             <div class="discription float-left">
               <h2 class="long">Железный трон</h2>
               <p class="column2 text">
@@ -141,11 +141,11 @@
             </div>        
           </div>   
         </div>
-        <div class="basement hidden float-left">
+        <div class="basement overflow-hidden float-left">
           <a href="index.html"><span class="logo float-left"></span></a>
           <div class="together">
             <h2><span class="colored">Источники</span> информации</h2>
-            <p class="column2 text">Текст взят из приложения к первому тому цикла "Песнь льда и пламени" "Игра престолов"</p>   
+            <p class="column2 text">Текст взят из приложения к первому тому цикла "Песнь льда и пламени" - "Игра престолов"</p>   
           </div>
           <div class="together">
             <h2><span class="colored">Авторские</span> права</h2>
