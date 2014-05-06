@@ -1,7 +1,7 @@
 function validateInput(input, reg) { 
   return function() {
     var testIt = reg.test(input.value) 
-    input.style.backgroundImage = testIt  ? 'url(style/checkmark3.png)' : 'url(style/closered1.png)'
+    input.style.backgroundImage = testIt  ? 'url(style/icons/checkmark.png)' : 'url(style/icons/closered.png)'
     return testIt
   }
 }
@@ -24,7 +24,7 @@ function validation() {
   var pass2 = form.copypass 
   var matchPasswords = function () { 
     var testPass = pass2.value && pass1.value ==pass2.value 
-    pass2.style.backgroundImage = testPass ? 'url(style/checkmark3.png)' : 'url(style/closered1.png)'
+    pass2.style.backgroundImage = testPass ? 'url(style/icons/checkmark.png)' : 'url(style/icons/closered.png)'
     return testPass
   }
   form.copypass.onkeyup = matchPasswords

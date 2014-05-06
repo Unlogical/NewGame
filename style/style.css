@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(0,0,0) url(style/winter.jpg) fixed no-repeat center top;
+  background: rgb(0,0,0) url(images/winter.jpg) fixed no-repeat center top;
   background-size: 100%;
   color: rgb(20,20,20);
   font-family: 'Open Sans', sans-serif;
@@ -256,7 +256,7 @@ body {
 }
 
 .required {
-  background-image: url(style/plus.png);
+  background-image: url(icons/plus.png);
 }
 
 .login-input:focus, .input:focus {
@@ -324,7 +324,7 @@ body {
   margin:-93px -7px 10px 0; 
   height:20px; 
   background-color:rgb(255,255,255); 
-  background-image: url(style/close.png);
+  background-image: url(icons/close.png);
   background-position: center center;
   box-shadow: 0 0 3px 2px rgb(200,220,240); 
   width:20px; 
@@ -333,7 +333,7 @@ body {
 
 .closebutton:hover {
   background-color:  rgb(200,220,240);
-  background-image: url(style/closehover.png);
+  background-image: url(icons/closehover.png);
 }
 
 .enterbutton {
@@ -392,7 +392,7 @@ body {
 /* images */
 
 .plusicon {
-  background-image: url(style/plus.png);
+  background-image: url(icons/plus.png);
   width: 16px;
   height: 17px;
   display: block;
@@ -411,15 +411,15 @@ body {
 }
 
 .tirrel-img {
-  background-image: url(style/tirrel2.jpg);
+  background-image: url(images/tirrel.jpg);
 } 
 
 .martell-img {
-  background-image: url(style/martell.jpg);
+  background-image: url(images/martell.jpg);
 } 
 
 .grayjoy-img {
-  background-image: url(style/grayjoy2.jpg);
+  background-image: url(images/grayjoy.jpg);
 } 
 
 .logo {
@@ -427,12 +427,12 @@ body {
   margin: 0 50px;
   width: 200px;
   height: 96px;
-  background-image: url(style/logo1.jpg);
+  background-image: url(images/logo.jpg);
   background-size: cover;
 }
 
 .image {
-  background-image: url(style/stark.jpeg);
+  background-image: url(images/stark.jpeg);
   background-size: cover;
   height: 200px;
   width: 280px;
@@ -458,19 +458,19 @@ body {
 
 
 .twitter {
-  background-image: url(style/twitter.png);
+  background-image: url(icons/twitter.png);
 }
 
 .vk{
-  background-image: url(style/vkontakte.png);
+  background-image: url(icons/vkontakte.png);
 }
 
 .youtube{
-  background-image: url(style/youtube.png);
+  background-image: url(icons/youtube.png);
 }
 
 .mail{
-  background-image: url(style/mail.png);
+  background-image: url(icons/mail.png);
 }
 
 .pic {
@@ -482,15 +482,15 @@ body {
 }
 
 .pic1 {
-  background-image:url(style/targarien.jpg); 
+  background-image:url(images/targarien.jpg); 
 }
 
 .pic2 {
-  background-image:url(style/barateon.jpg); 
+  background-image:url(images/barateon.jpg); 
 }
 
 .pic3 {
-  background-image:url(style/lannister.jpg); 
+  background-image:url(images/lannister.jpg); 
 }
 
 /* properties */
