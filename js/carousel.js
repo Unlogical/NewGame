@@ -32,5 +32,10 @@
             $(this).removeClass('active');
           })
        .jcarouselPagination();
+       $('.jcarousel').jcarouselAutoscroll({
+            interval: 4000,
+            target: '+=1',
+            autostart: true
+        })
     });
   })(jQuery);
