@@ -201,7 +201,7 @@ body {
 .tip::after{
   content: ''; 
   position: absolute; 
-  bottom: 27px; 
+  bottom: 26px; 
   border: 5px solid transparent; 
   border-bottom: 5px solid rgb(180,200,220); 
 }
