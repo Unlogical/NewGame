@@ -104,6 +104,11 @@ body {
 
 /*second: pic and 2 columns*/
 
+.starks {
+  width: 100%;
+  padding-top: 30px;
+}
+
 .column {
   margin-top: 30px;
   height: 150px;

@@ -104,6 +104,12 @@ body {
 
 /*second: pic and 2 columns*/
 
+.starks {
+  width: 100%;
+  background-color: salmon;
+  padding-top: 30px;
+}
+
 .column {
   margin-top: 30px;
   height: 150px;
@@ -416,13 +422,6 @@ body {
 .grayjoy-img {
   background-image: url(style/grayjoy2.jpg);
 } 
-
-.images {
-  height: 400px;
-  width: 900px;
-  background-image: url(style/qroun.jpg);
-  background-size: cover;
-}
 
 .logo {
   display: block;
