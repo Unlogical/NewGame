@@ -236,7 +236,6 @@ body {
 }
 
 .registration .button {
-  height: 30px;
   font-size: 20px;
   float: right;
   margin: 30px 170px 30px 200px;
@@ -332,7 +331,7 @@ body {
 .closebutton {
   border:1px solid rgb(200,220,240);
   border-radius: 10px;
-  margin:-93px -7px 10px 0; 
+  margin:-97px -7px 10px 0; 
   height:20px; 
   background-color:rgb(255,255,255); 
   background-image: url(icons/close.png);
