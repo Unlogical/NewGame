@@ -33,7 +33,7 @@
           })
        .jcarouselPagination();
        $('.jcarousel').jcarouselAutoscroll({
-            interval: 4000,
+            interval: 6000,
             target: '+=1',
             autostart: true
         })
